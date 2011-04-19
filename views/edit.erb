@@ -1,0 +1,13 @@
+<h1>Manage Blog Post</h1>
+
+<form action="<%= url %>" method="post">
+  <label>Title:</label>
+  <input type="text" name="title" value="<%= post.title %>">
+
+  <label>URL Key:</label>
+  <input type="text" name="_id" value="<%= post.id %>">
+
+  <label>Body (Formatted with Markdown):</label>
+  <textarea name="body"><%= post.body %></textarea>
+  <input type="submit"/> or <a href="/">Cancel</a>
+</form>

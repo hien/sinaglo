@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title><%= SITE_NAME %><%= "- #{@title}" if @title %></title>
+    <link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+    <link rel="alternate" type="application/rss+xml" title="Darian Shimy RSS Feed" href="http://<%="#{request.host}:#{request.port}" %>/posts.atom" />
+  </head>
+  <body>
+    <header>
+    <div class="title"><a href="/"><%= SITE_NAME %></a></div>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/archive">Archive</a>
+      <% if session[:admin] %>
+          <a a href="/posts/new">New Post</a>
+          <% if @post %>
+            <a href="<%= @post.url %>/edit">Edit Post</a>
+          <% end %>
+      <% end %>
+        </nav>
+    </header>
+    <%= yield %>
+  </body>
+</html>

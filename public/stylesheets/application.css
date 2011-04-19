@@ -1,0 +1,108 @@
+body {
+  font-family: Georgia, "Bitstream Charter", serif;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 800px;
+}
+h1 a, h1 a:hover, h1 a:link, h1 a:visited {
+  text-decoration: none;
+  color: #333;
+}
+h1 {
+  font-family: 'Helvetica Neue', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  height: 27px;
+  line-height: 27px;
+  color: #333;
+  margin: 0 0 0 0;
+}
+h2 {
+  font-family: 'Helvetica Neue', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+  margin: 0 0 0 0;
+}
+a {
+  color: #1111CC;
+}
+header {
+  margin-bottom: 20px;
+  font-family: 'Helvetica Neue', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+header div.title {
+  font-weight: bold;
+  font-size: 28px;
+  padding: 10px 0 20px 0;
+}
+header div.title a {
+  text-decoration: none;
+  color: #000;
+}
+header nav {
+  background: #333;
+  padding: 8px;
+}
+header nav a {
+  color: #bcbcbc;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+}
+ul#archive li a {
+  font-size: 16px;
+}
+div.posts {
+}
+div.post {
+  margin: 10px 0;
+  border-bottom: 1pt solid #999;
+}
+div.publish_at {
+  color: #666;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+pre {
+  font-size: 13px;
+  font-family: Monaco, monospace;
+  color: #ccc;
+  background: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+pre span.attribute { color: #009900; }
+pre span.char { color: #F00; }
+pre span.class { color: #A020F0; font-weight: bold; }
+pre span.comment { color: #FFFF00; }
+pre span.constant { color: #008B8B; }
+pre span.escape { color: #6A5ACD; }
+pre span.expr { color: #2222CC; }
+pre span.global { color: #11AA44; }
+pre span.ident { color: #CCCCCC; }
+pre span.keyword { color: #A52A2A; font-weight: bold; }
+pre span.method { color: #008B8B; }
+pre span.module { color: #A020F0; font-weight: bold; }
+pre span.number { color: #DD00DD; }
+pre span.punct { color: #6A5ACD; }
+pre span.regex { color: #DD00DD; }
+pre span.string { color: #DD00DD; }
+pre span.symbol { color: #008B8B; }
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}form input[type=text] {
+  width: 300px;
+  padding: 4px;
+  border-radius: 4px;
+}
+form textarea {
+  width: 800px;
+  height: 500px;
+  padding: 4px;
+  border-radius: 4px;
+}
