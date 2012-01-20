@@ -31,7 +31,7 @@ class BlogApplication < Sinatra::Base
 
   set :app_file, __FILE__
   set :static, true
-  set :public, 'public'
+  set :public_folder, 'public'
   set :sessions, true
 
   helpers do
